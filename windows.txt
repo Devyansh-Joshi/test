@@ -1,0 +1,20 @@
+windows 
+
+ip cmds:
+
+ipconfig /all
+ipconfig /release
+ipconfig /renew
+ipconfig /dns
+
+---------------------------------------------------------------------
+
+Set FQDN:
+
+SM -> local server -> computer name -> enter any name -> more -> enter domain name -> restart
+
+Static IP config: 
+
+win + R -> ncpa.cpl -> ethernet -> properties -> IPv4 -> properties -> enter IP and dns -> refresh SM
+
+
